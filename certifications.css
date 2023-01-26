@@ -1,0 +1,39 @@
+.container.certifications_container{
+    width:40%;
+
+}
+.certification{
+    background:transparent;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.certificate{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+/*medium devices*/
+@media screen and (max-width:1024px){
+    .container.certifications_container{
+        width: 60%;
+
+    }
+
+    
+}
+
+/*small devices*/
+@media screen {
+    .container.certifications_container{
+        width: var(--container-width-sm);
+        
+    }
+
+    .certificate{
+        width: var(--container-width-sm);
+    }
+}
